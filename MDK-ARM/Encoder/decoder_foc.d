@@ -1,0 +1,13 @@
+encoder\decoder_foc.o: ..\MATLAB\Decoder_FOC.c
+encoder\decoder_foc.o: ..\MATLAB\Decoder_FOC.h
+encoder\decoder_foc.o: ..\MATLAB\rtwtypes.h
+encoder\decoder_foc.o: G:\keil\ARM\ARMCC\Bin\..\include\math.h
+encoder\decoder_foc.o: ../Middlewares/ST/ARM/DSP/Inc/arm_math.h
+encoder\decoder_foc.o: ../Drivers/CMSIS/Include/core_cm4.h
+encoder\decoder_foc.o: G:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+encoder\decoder_foc.o: ../Drivers/CMSIS/Include/cmsis_version.h
+encoder\decoder_foc.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+encoder\decoder_foc.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+encoder\decoder_foc.o: G:\keil\ARM\ARMCC\Bin\..\include\string.h
+encoder\decoder_foc.o: G:\keil\ARM\ARMCC\Bin\..\include\float.h
+encoder\decoder_foc.o: G:\keil\ARM\ARMCC\Bin\..\include\limits.h

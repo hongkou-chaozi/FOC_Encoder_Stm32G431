@@ -1,0 +1,261 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="rtwreport.css" /><script language="JavaScript" type="text/javascript" src="rtwshrink.js"></script><script>function postParentWindowMessage(message) {window.parent.postMessage(message, "*");}</script><style> h3 { margin-bottom: 1ex; } h4.function {   font-size: larger; font-weight: normal;   color: #c05709;	margin-bottom: 0ex; } .description {	border-style: none;	color: DimGray; } .footnote { margin-top: 0.5ex; font-size: small; color: DimGray;} a:link { color: #0076a8 } a:visited, a:hover { color: #004b87 } ul.services { margin-top: 0.5ex; } .include { color: #992211 } a.include:link { color:inherit; text-decoration: none } a.include:hover { text-decoration: underline } a.fcn:link { color:inherit; text-decoration: none } a.fcn:hover { text-decoration: underline } code.usage { white-space: pre-wrap; } .programlisting {   margin-left: 4ex; margin-right: 4ex;   margin-top: 2ex;  margin-bottom: 2ex; } .tooltip { position: relative; display: inline-block; } .tooltip .tooltip-text {   visibility: hidden;   position: absolute;   top: 110%;   left: 0;   background-color: white;   z-index: 1;   box-shadow: 5px 5px 10px 5px Gainsboro;   border-radius: 10px;   padding: 10px 15px 0px; } .tooltip:hover .tooltip-text { visibility: visible; } .tooltip-text .footnote { white-space: nowrap;} </style><title>
+decoder0 的代码接口报告
+</title>
+
+</head>
+<body>
+<h1>
+decoder0 的代码接口报告
+</h1>
+<div>
+
+</div>
+<div id="table_of_contents">
+<h3>
+目录
+</h3>
+<ol>
+<li>
+<a href="#sec_introduction" onclick="rtwTableExpand(window.document, window.document.getElementById('rtwIdDataInterface_table_001_control'), 'rtwIdDataInterface_table_001')">
+简介
+</a>
+
+</li>
+<li>
+<span>
+<a href="#sec_execution" onclick="rtwTableExpand(window.document, window.document.getElementById('rtwIdDataInterface_table_002_control'), 'rtwIdDataInterface_table_002')">
+函数接口
+</a>
+<ul>
+<li>
+<a href="#sec_initialize_functions" onclick="rtwTableExpand(window.document, window.document.getElementById('rtwIdDataInterface_table_002_control'), 'rtwIdDataInterface_table_002')">
+初始化函数
+</a>
+
+</li>
+<li>
+<a href="#sec_terminate_functions" onclick="rtwTableExpand(window.document, window.document.getElementById('rtwIdDataInterface_table_002_control'), 'rtwIdDataInterface_table_002')">
+终止函数
+</a>
+
+</li>
+<li>
+<a href="#sec_periodic_functions" onclick="rtwTableExpand(window.document, window.document.getElementById('rtwIdDataInterface_table_002_control'), 'rtwIdDataInterface_table_002')">
+周期函数
+</a>
+
+</li>
+<li>
+<a href="#sec_aperiodic_functions" onclick="rtwTableExpand(window.document, window.document.getElementById('rtwIdDataInterface_table_002_control'), 'rtwIdDataInterface_table_002')">
+非周期函数
+</a>
+
+</li>
+
+</ul>
+</span>
+
+</li>
+<li>
+<span>
+<a href="#sec_data_interfaces" onclick="rtwTableExpand(window.document, window.document.getElementById('rtwIdDataInterface_table_003_control'), 'rtwIdDataInterface_table_003')">
+数据接口
+</a>
+<ul>
+<li>
+<a href="#sec_inports" onclick="rtwTableExpand(window.document, window.document.getElementById('rtwIdDataInterface_table_003_control'), 'rtwIdDataInterface_table_003')">
+输入端口
+</a>
+
+</li>
+<li>
+<a href="#sec_outports" onclick="rtwTableExpand(window.document, window.document.getElementById('rtwIdDataInterface_table_003_control'), 'rtwIdDataInterface_table_003')">
+输出端口
+</a>
+
+</li>
+<li>
+<a href="#sec_interface_parameters" onclick="rtwTableExpand(window.document, window.document.getElementById('rtwIdDataInterface_table_003_control'), 'rtwIdDataInterface_table_003')">
+参数
+</a>
+
+</li>
+<li>
+<a href="#sec_data_stores" onclick="rtwTableExpand(window.document, window.document.getElementById('rtwIdDataInterface_table_003_control'), 'rtwIdDataInterface_table_003')">
+内部数据
+</a>
+
+</li>
+
+</ul>
+</span>
+
+</li>
+
+</ol>
+
+</div>
+<h2 name="sec_简介" id="sec_introduction">
+1. 简介 <span title="Click to shrink or expand section" style="cursor:pointer;font-weight:normal;" id="rtwIdDataInterface_table_001_control" onclick ="if (rtwTableShrink) rtwTableShrink(window.document, this, 'rtwIdDataInterface_table_001', false)"><span class="shrink-button">[<u>show</u>]</span></span>
+</h2>
+<table width="100%" style="display: none" name="rtwIdDataInterface_table_001" id="rtwIdDataInterface_table_001" border="0">
+<tr>
+<td align="left" valign="top">
+<p>
+代码生成器为模型生成了数据代码接口。代码接口报告汇总模型可调用入口函数和数据接口元素(例如根级输入端口和输出端口)的接口代码。
+</p>
+
+</td>
+
+</tr>
+
+</table>
+<h2 name="sec_函数接口" id="sec_execution">
+2. 函数接口 <span title="Click to shrink or expand section" style="cursor:pointer;font-weight:normal;" id="rtwIdDataInterface_table_002_control" onclick ="if (rtwTableShrink) rtwTableShrink(window.document, this, 'rtwIdDataInterface_table_002', false)"><span class="shrink-button">[<u>hide</u>]</span></span>
+</h2>
+<table width="100%" name="rtwIdDataInterface_table_002" id="rtwIdDataInterface_table_002" border="0">
+<tr>
+<td align="left" valign="top">
+外部代码通过调用为模型生成的入口函数来启动生成代码的执行。代码生成器为模型生成的函数代码类型取决于在模型中表示的建模方式和周期性速率。有关详细信息，请参阅<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'legacyMCall', expr:'helpview(fullfile(docroot,\'toolbox\',\'ecoder\',\'helptargets.map\'),\'model_entry_points\')'})" >为模型入口函数配置生成的 C 函数接口</a><br><br>
+</td>
+
+</tr>
+<tr>
+<td align="left" valign="top">
+<section id="sec_initialize_functions">
+<h3>
+2.1 初始化函数
+</h3>
+<p>
+初始化入口函数实现启动行为。在模型中，Initialize Function 模块显式表示启动行为。
+</p>
+<div id="fcn_decoder0_initialize">
+<h4 class="function">
+decoder0_initialize
+</h4>
+<span class="description">
+生成代码的初始化入口函数
+</span>
+<div class="programlisting">
+<code class="usage"><span class="include">#include "<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'decoder0.h'})" class="include">decoder0.h</a>"</span>
+void <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'decoder0_initialize'})" class="fcn">decoder0_initialize</a>(void)</code>
+</div>
+</div>
+</section>
+<section id="sec_terminate_functions">
+<h3>
+2.2 终止函数
+</h3>
+<p>
+终止入口函数实现关闭行为。在模型中，Terminate Function 模块显式表示关闭行为。
+</p>
+<p>
+模型中没有表示终止函数。
+</p>
+</section>
+<section id="sec_periodic_functions">
+<h3>
+2.3 周期函数
+</h3>
+<p>
+周期性入口函数实现以固定采样率发生的模型行为。对于基于速率的模型，代码生成器为模型中使用的每个速率生成一个周期性入口函数。在函数调用(导出函数)模型中，指定采样率的 Function Call Subsystem 模块表示周期函数。
+</p>
+<div id="fcn_decoder0_step">
+<h4 class="function">
+decoder0_step
+</h4>
+<span class="description">
+生成代码的输出入口函数. 必须周期性调用，每 0.0001 秒调用一次. 
+</span>
+<div class="programlisting">
+<code class="usage"><span class="include">#include "<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'decoder0.h'})" class="include">decoder0.h</a>"</span>
+void <a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'decoder0_step'})" class="fcn">decoder0_step</a>(void)</code>
+</div>
+</div>
+</section>
+<section id="sec_aperiodic_functions">
+<h3>
+2.4 非周期函数
+</h3>
+<p>
+非周期(异步)入口函数实现异步发生的组件行为。在函数调用(导出函数)模型中，不指定采样率的 Function Call Subsystem 模块表示非周期函数。
+</p>
+<p>
+模型中没有表示非周期函数。
+</p>
+</section>
+
+</td>
+
+</tr>
+
+</table>
+<h2 name="sec_数据接口" id="sec_data_interfaces">
+3. 数据接口 <span title="Click to shrink or expand section" style="cursor:pointer;font-weight:normal;" id="rtwIdDataInterface_table_003_control" onclick ="if (rtwTableShrink) rtwTableShrink(window.document, this, 'rtwIdDataInterface_table_003', false)"><span class="shrink-button">[<u>hide</u>]</span></span>
+</h2>
+<table width="100%" name="rtwIdDataInterface_table_003" id="rtwIdDataInterface_table_003" border="0">
+<tr>
+<td align="left" valign="top">
+数据代码接口将模型数据接口元素(如根级输入端口和输出端口)映射到存储类。存储类指定生成代码中数据元素的外观和位置。存储类支持直接访问数据通信。可用于映射的存储类列表由与模型相关联的 Embedded Coder 字典确定。您可以在模型代码映射中将模型接口元素映射到存储类。<br><br>
+</td>
+
+</tr>
+<tr>
+<td align="left" valign="top">
+<section id="sec_inports">
+<h3>
+3.1 输入端口
+</h3>
+基于模型根级输入端口的存储类设定在代码中生成的变量。<p>
+模型中不存在输入端口。
+</p>
+</section>
+<section id="sec_outports">
+<h3>
+3.2 输出端口
+</h3>
+基于模型根级输出端口的存储类设定在代码中生成的变量。<p>
+模型中不存在输出端口。
+</p>
+</section>
+<section id="sec_interface_parameters">
+<h3>
+3.3 参数
+</h3>
+所生成代码中的变量，表示基于存储类设定在代码中生成的模型参数和模型参数参量，并且当模型代码在目标环境中执行时这些变量标记为可调或不可调。<div id="fcn_PMSM_Para.Pn">
+<h4 class="function">
+PMSM_Para.Pn
+</h4>
+<span class="description">
+Pn 的参数
+</span>
+<div class="programlisting">
+<code class="usage">struct {
+  ...
+  real32_T Pn;
+  ...
+} PMSM_Para;</code>
+</div>
+</div>
+</section>
+<section id="sec_data_stores">
+<h3>
+3.4 内部数据
+</h3>
+所生成代码中的变量，表示信号数据、具有内部状态的模块和基于存储类设定在代码中生成的数据存储，它们被标记为在目标环境中执行模型代码时需要进行测量或不需要进行测量。<p>
+模型中没有数据存储；请注意，此报告仅列出具有非自动默认存储类的数据存储和全局数据存储
+</p>
+</section>
+
+</td>
+
+</tr>
+
+</table>
+
+<script>function postParentWindowMessage(message) {window.parent.postMessage(message, "*");}</script>
+</body>
+
+</html>
